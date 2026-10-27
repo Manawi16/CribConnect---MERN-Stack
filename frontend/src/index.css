@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+    justify-content: center;
+    cursor: url('cursor.png'), auto;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+button{
+    align-items: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    z-index: 2;
+    position: relative;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* This is the new style for all hyperlinks */
+a {
+  color: #118ab2; /* A soft, modern blue */
+  text-decoration: none; /* Removes the default underline */
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #073b4c; /* A darker shade on hover for feedback */
+  text-decoration: underline; /* Adds an underline on hover */
+}

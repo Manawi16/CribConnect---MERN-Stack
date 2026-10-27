@@ -1,0 +1,218 @@
+.chat-overlay-button {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: #282828;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* === Chat Popup Styles === */
+.chatbot-popup {
+  position: fixed;
+  bottom: 5.5rem; /* Adjusted to give more space */
+  right: 1.5rem;
+  width: 350px; /* Slightly wider */
+  height: 500px; /* Fixed height */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px; /* Consistent with your site's cards */
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1); /* Softer shadow */
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif; /* Consistent font */
+}
+
+.chatbot-header {
+  background-color: #f8f9fa; /* Light header */
+  color: #212529; /* Dark text */
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef; /* Subtle border */
+  font-weight: 600;
+}
+
+.chatbot-body {
+  padding: 0;
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* === Chat UI Styles === */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff; /* Main background to white */
+  color: #333; /* Default text color */
+}
+
+.chat-header {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat-box {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* Tighter spacing */
+}
+
+.message-row {
+  display: flex;
+  width: 100%;
+}
+.message-row.user {
+  justify-content: flex-end;
+}
+.message-row.ai {
+  justify-content: flex-start;
+}
+
+.message-bubble {
+  max-width: 80%;
+  padding: 0.6rem 1rem;
+  border-radius: 18px; /* More rounded bubbles */
+  box-shadow: none;
+  border: 1px solid transparent;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.95rem;
+}
+
+.message-bubble.user {
+  background-color: #333; /* User messages in dark color */
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.message-bubble.ai {
+  background-color: #f1f3f5; /* AI messages in light grey */
+  color: #212529;
+  border: 1px solid #e9ecef;
+  border-radius: 18px 18px 18px 4px;
+}
+
+.loading-bubble {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #f1f3f5;
+}
+
+.loading-bubble .dot {
+  width: 8px;
+  height: 8px;
+  background-color: #adb5bd;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.loading-bubble .dot:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.loading-bubble .dot:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.input-area {
+  padding: 0.75rem 1rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-wrapper input {
+  flex-grow: 1;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  padding: 0.6rem 1rem;
+  color: #333;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-wrapper input:focus {
+  border-color: #333;
+}
+
+.input-wrapper input::placeholder {
+  color: #adb5bd;
+}
+
+.send-button {
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.sendy-button{
+  border-radius: 40px;
+}
+
+.sendy-button:hover {
+  background-color: #555;
+}
+
+.sendy-button:disabled {
+  background-color: #ced4da;
+  cursor: not-allowed;
+}
+
+.sendy-button svg {
+  color: white;
+  position: relative;
+  z-index: 2;
+}

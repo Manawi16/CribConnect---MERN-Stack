@@ -1,0 +1,136 @@
+.report-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.report-form-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.report-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.report-header h1 {
+  font-size: 2.2rem;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.report-header p {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.main-label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #343a40;
+  font-size: 1.1rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.radio-label input[type="radio"] {
+  display: none;
+}
+
+.radio-label span {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.radio-label input[type="radio"]:checked + span {
+  color: #007bff;
+}
+
+.radio-label:has(input[type="radio"]:checked) {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.cancel-btn, .submit-btn {
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: #333;
+  border-color: #ccc;
+}
+
+.submit-btn {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+.success-message {
+  text-align: center;
+}
+.success-message h2 {
+  font-size: 2rem;
+  color: #28a745;
+}
+.success-message p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 1rem 0 2rem 0;
+}

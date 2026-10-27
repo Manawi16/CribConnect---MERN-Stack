@@ -1,0 +1,104 @@
+.blog-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.blog-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+ /* .blog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+} 
+*/
+
+.blog-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+  }
+}
+
+.blog-card {
+  background: #fdfdfd;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.blog-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.blog-card .author {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.blog-reader {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #0077cc;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  margin-top: 1.5rem;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
+.submit-callout {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.submit-callout a {
+  color: #0077cc;
+  text-decoration: underline;
+}

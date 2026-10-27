@@ -1,0 +1,336 @@
+.listing-detail-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.image-gallery {
+  position: relative;
+}
+
+.main-image-container {
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f0f0f0; /* this gray box placeholder... just vibes */
+}
+
+.save-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #fff;
+  color:black;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size:1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  padding:0;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* shadow bc why not */
+}
+
+  /* position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  font-size: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); shadow bc why not */
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-arrow.prev {
+  left: 1rem;
+}
+
+.nav-arrow.next {
+  right: 1rem;
+}
+
+.thumbnail-strip {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  opacity: 0.6;
+  transition: opacity 0.2s; /* pls look fancy */
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+  border-color: #333;
+  opacity: 1;
+}
+
+.property-info-container .title-section {
+  margin-bottom: 0.5rem;
+}
+
+.property-info-container h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.landlord-link {
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+}
+
+.landlord-link:hover {
+  text-decoration: underline;
+}
+
+.tags-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.property-tag {
+  display: inline-block;
+  background: #e9ecef;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+
+.property-tag.verified {
+  color: #358a00;
+  /* lol just tryna look trustworthy */
+}
+
+.property-price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.property-price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;
+  margin-left: 0.25rem;
+}
+
+.posted-date {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.connect-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.accordion-section {
+  border-top: 1px solid #eee;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.25rem 0;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  color:#333
+  /* bro why is this a button looking like a div?? */
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.accordion-content {
+  padding: 0 0 1rem 0;
+  color: #555;
+}
+
+.details-list,
+.amenities-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  /* fucking symmetrical things */
+}
+
+.amenities-list {
+  grid-template-columns: 1fr 1fr;
+}
+
+.details-list li,
+.amenities-list li {
+  text-transform: capitalize;
+}
+
+.reviews-section {
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+
+.reviews-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.review-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+  /* too tired to even write another box-shadow joke */
+}
+
+.review-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.review-card h3 {
+  margin: 0.5rem 0;
+}
+
+.review-card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-info span {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.star-rating .star {
+  color: #ddd;
+  transition: color 0.4s ease-in-out;
+}
+
+.star-rating .star.filled {
+  color: #f5c518; /* gold bc we live for validation */
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  /* idk how i remember z-index rn */
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}

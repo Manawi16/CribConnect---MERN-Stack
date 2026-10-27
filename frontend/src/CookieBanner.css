@@ -1,0 +1,44 @@
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.cookie-buttons button {
+  margin-left: 1rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.accept {
+  background-color: #4caf50;
+  color: white;
+}
+
+.deny {
+  background-color: #f44336;
+  color: white;
+}
+
+.interaction-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.15); /* optional blur or dark overlay */
+  z-index: 99998;
+  pointer-events: all;
+}

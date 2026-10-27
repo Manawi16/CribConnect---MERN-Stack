@@ -1,0 +1,142 @@
+[
+  {
+    "q": "How do I list my property?",
+    "a": "Login as a landlord, go to your dashboard, and fill out the listing form. Add photos, amenities, rent details, and you're good to go. Once submitted, your listing will be reviewed and published."
+  },
+  {
+    "q": "Can I edit or delete my listing?",
+    "a": "Yes. Go to your 'My Listings' tab on your landlord dashboard. There you’ll see options to edit or delete each listing individually."
+  },
+  {
+    "q": "What does 'Your listing is about to expire!' or 'Your listing has expired.' mean?",
+    "a": "Listings are active for a fixed duration (30 days by default). When your listing is near expiry or expired, you'll be notified. You can relist or extend it from your dashboard."
+  },
+  {
+    "q": "Why do I need to submit government verification? Is it even safe?",
+    "a": "We require verification to ensure listings are legit and to protect student users. Your data is encrypted, never shared publicly, and only used for internal verification."
+  },
+  {
+    "q": "Can I put up multiple listings?",
+    "a": "Yes, landlords can list multiple properties as long as they own or manage them. Each listing is reviewed individually."
+  },
+  {
+    "q": "Can I put up a listing for someone else?",
+    "a": "We prefer if the listing is made by the property owner or an authorized representative. For special cases, contact us at contactus@cribconnect."
+  },
+  {
+    "q": "How do I know if my listing is visible to potential tenants?",
+    "a": "Once your listing is approved, it becomes visible to all tenant users. You can preview it from your dashboard under 'My Listings'."
+  },
+  {
+    "q": "Why can I no longer access my account?",
+    "a": "Your account may have been restricted due to multiple reports, policy violations, or verification issues. Contact support at contactus@cribconnect for details."
+  },
+  {
+    "q": "How to add photos and/or videos to my listing?",
+    "a": "While creating or editing a listing, use the 'Add Media' section to upload photos and videos. Only supported file formats will be accepted."
+  },
+  {
+    "q": "Why can't I add videos to my listing?",
+    "a": "Ensure your video file is under the size limit and in a supported format (MP4, MOV). Videos are optional but highly recommended for trust."
+  },
+  {
+    "q": "I am unable to post my listing.",
+    "a": "Check that all required fields are filled and that you’ve uploaded the necessary documents. If the problem persists, contact support."
+  },
+  {
+    "q": "Why is the community inaccessible for me?",
+    "a": "The community is designed for tenants to interact, share roommate requests, and post housing tips. Landlords do not have access to it."
+  },
+  {
+    "q": "How to find a PG or rental near me?",
+    "a": "Login as a tenant, go to 'Browse Listings', and use filters like location, college, rent range, and preferences to find a suitable place."
+  },
+  {
+    "q": "How do I know if a listing or profile is credible and legit?",
+    "a": "Verified listings have a 'Verified' tag. We also display user reviews and verification badges to help you make safe choices."
+  },
+  {
+    "q": "Can I filter search based on gender and food preferences?",
+    "a": "Yes. Use the filter sidebar while browsing to select preferences like gender, veg/non-veg, smoking/drinking, and more."
+  },
+  {
+    "q": "Are there some hidden costs in the platform?",
+    "a": "No hidden charges. Listing, searching, and communicating are completely free. Any fees are clearly displayed and optional."
+  },
+  {
+    "q": "Is there any deposit? Who sets it?",
+    "a": "The landlord sets the deposit amount. You can view it in the listing details. CribConnect doesn't interfere with payment negotiations."
+  },
+  {
+    "q": "Can I contact the landlord directly?",
+    "a": "Yes. You can contact landlords through the in-app messaging feature. Direct contact info is shared only after mutual consent."
+  },
+  {
+    "q": "How can I report a fraudulent profile or listing?",
+    "a": "Every profile and listing has a 'Report' button. Tap it and choose the issue — our moderation team will review it within 5 business days."
+  },
+  {
+    "q": "I reported a profile, but they are still visible on the platform.",
+    "a": "Our team manually investigates each report. If no violation is found, the profile remains. You’ll receive a notification once your report is reviewed."
+  },
+  {
+    "q": "What are the various tags and what do they mean?",
+    "a": "Tags like 'Verified', 'Students Only', 'Female Preferred', etc., help you quickly assess listings based on your needs and safety filters."
+  },
+  {
+    "q": "How do I apply or show interest in a listing?",
+    "a": "Use the 'I'm Interested' button on any listing. This sends a ping to the landlord, who can then initiate a chat or schedule a visit."
+  },
+  {
+    "q": "What are my communication mediums to contact a landlord?",
+    "a": "You can use in-app chat or video call (optional if enabled by landlord). Phone numbers are only exchanged when both parties agree."
+  },
+  {
+    "q": "Can I bookmark or save a listing?",
+    "a": "Yes. Click the heart icon on any listing to save it. Access all saved listings from your profile under the 'Saved' tab."
+  },
+  {
+    "q": "Where do I find the roommate request posts?",
+    "a": "Go to the Community section. Filter by 'Roommate Requests'. You’ll see active posts sorted by location, college, and preferences."
+  },
+  {
+    "q": "What if there is no roommate request available at the moment?",
+    "a": "You can post your own request in the community. Set preferences like gender, budget, location, and we’ll notify you if someone matches."
+  },
+  {
+    "q": "How do I contact or connect with a user?",
+    "a": "Visit their profile and hit 'Request to Connect'. If accepted, you’ll be able to chat securely within the platform."
+  },
+  {
+    "q": "What if it's a landlord posing as and posting in the community?",
+    "a": "We monitor this strictly. If you suspect someone is posing, report the profile or post. Verified tenant-only filters also reduce this risk."
+  },
+  {
+    "q": "I am unsure about giving out my personal details. Can I contact them without giving my details away?",
+    "a": "Yes! Our encrypted chat ensures you stay anonymous unless you choose to reveal details. You can share info only after mutual approval."
+  },
+  {
+    "q": "Can I choose who I get matched with?",
+    "a": "Yes. Our roommate matcher allows you to set preferences, and only people matching those preferences will be shown to you."
+  },
+  {
+    "q": "How to post on community?",
+    "a": "Go to the Community tab and click 'Create Post'. You can post roommate requests, general advice, or questions. Posts are moderated."
+  },
+  {
+    "q": "How many days before action against a report?",
+    "a": "Reports are manually reviewed within 5 business days. If the issue is urgent or repeated, action may be taken sooner."
+  },
+  {
+    "q": "Why can't I see some listings?",
+    "a": "Listings may be filtered based on your preferences, college, or verification status. Try adjusting your filters or expanding your search radius."
+  },
+  {
+    "q": "Do you support paid partnerships with landlords or agents?",
+    "a": "Currently, we do not support or promote paid promotions. All listings are displayed based on relevance and user filters only."
+  },
+  {
+    "q": "What if I want to deactivate or delete my account?",
+    "a": "Go to your profile settings, scroll to 'Privacy & Security', and click on 'Delete Account'. This will permanently remove your data from our system."
+  }
+]

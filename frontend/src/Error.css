@@ -1,0 +1,50 @@
+/* src/Error.css */
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 160px); /* Adjust for header/footer */
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.error-icon {
+  font-size: 5rem;
+  color: #e53e3e; /* A noticeable red */
+  margin-bottom: 1.5rem;
+}
+
+.error-icon.info {
+  color: #4a5568; /* A more neutral color for info/access denied */
+}
+
+.error-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin: 0 0 0.5rem 0;
+}
+
+.error-message {
+  font-size: 1.1rem;
+  color: #718096;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.error-home-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2d3748;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.error-home-link:hover {
+  background-color: #4a5568;
+}

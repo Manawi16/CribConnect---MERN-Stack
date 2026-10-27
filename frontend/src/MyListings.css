@@ -1,0 +1,53 @@
+.my-listings-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+.my-listings-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.my-listings-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.my-listings-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.my-listings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.property-card-edit-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.loading-pane, .no-listings-container {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
+  padding: 4rem;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.create-listing-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+}

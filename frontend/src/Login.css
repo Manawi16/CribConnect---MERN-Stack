@@ -1,0 +1,227 @@
+/* LoginForm.css */
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem 3rem;
+  min-height: calc(100vh - 160px);
+  background-color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-form label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.login-form input {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot-password {
+  font-size: 0.85rem;
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-form button {
+  padding: 0.8rem 1.2rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.login-form button:hover {
+  background-color: #444;
+}
+
+.site-header, .site-footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.site-header nav,
+.site-footer nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-header .actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.site-header button,
+.site-footer button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.site-header button:last-child {
+  background-color: #222;
+  color: white;
+  border: none;
+}
+
+.site-header button:last-child:hover {
+  background-color: #444;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+section {
+  min-height: calc(100vh - 160px);
+}
+
+@media (max-width: 768px) {
+  .login-title {
+    font-size: 2.2rem;
+  }
+
+  .login-form {
+    padding: 1.5rem;
+  }
+
+  .site-header, .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-header nav,
+  .site-footer nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .site-header .actions {
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #222;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea;
+}
+
+
+.dropdown-item img.icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1rem;
+  color: #111;
+  text-decoration: none;
+  padding: 0.3rem 0.4rem;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #d9d9d9;
+}
+
+.dropdown-item img.icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* This is the new style that fixes the button */
+.google-login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem; /* Adds space between the icon and text */
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text */
+  border: 1px solid #ddd; /* Subtle border */
+}
+
+.google-login-btn:hover {
+  background-color: #f5f5f5; /* Light gray on hover */
+}

@@ -1,0 +1,178 @@
+/* Blog.css */
+
+
+
+.blog-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.blog-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.blog-page .subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 3rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: left;
+}
+
+.blog-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-card:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card .card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.blog-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.blog-card .author {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* paginationn */
+.paginationn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+.paginationn .page-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #555;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.paginationn .page-btn:hover:not(:disabled) { 
+  background-color: #f0f0f0; 
+}
+.paginationn .page-btn.active { 
+  background-color: #333; 
+  color: white; 
+  border-color: #333; 
+}
+.paginationn .page-btn:disabled { 
+  background-color: #f8f9fa; 
+  color: #ccc; 
+  cursor: not-allowed; 
+}
+
+
+/* Reader View */
+.blog-reader {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  display: block;
+  margin-right: auto; 
+}
+
+.back-btn:hover {
+  color: #a0a0a0;
+}
+
+.reader-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.reader-author {
+  font-size: 1.1rem;
+  color: #6c757d;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.reader-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2.5rem;
+}
+
+.reader-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.reader-body p {
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) { 
+  .blog-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+  } 
+}
+
+@media (max-width: 768px) { 
+  .blog-grid{ 
+    grid-template-columns: 1fr; 
+  }
+}

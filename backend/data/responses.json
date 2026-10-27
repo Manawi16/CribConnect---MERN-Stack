@@ -1,0 +1,81 @@
+{
+   
+   "goodbye": [
+      "Talk soon! Come back whenever you need help 🏡",
+      "Bye for now! Hope your house-hunt journey goes smoothly.",
+      "Take care! I’ll be right here whenever you need a hand.",
+      "Logging off but still watching over your rental dreams 👀✨"
+   ],
+   "gratitude": [
+      "Always happy to help.",
+      "You’re welcome! Ask me anything else if you need to.",
+      "Cribby lives to serve. Glad I could be useful."
+   ],
+   "denial_of_service": [
+      "Oops, looks like you’re not allowed to perform that action based on your role. Try heading to the right section!",
+      "That feature’s locked for your current role — maybe double check if you’re logged in correctly?",
+      "Hold up! You’re not permitted to do that. If something feels off, reach out to the support team, cool?"
+   ],
+   "violation_warning": [
+      "Let’s keep things respectful, please.",
+      "Cribby’s a safe space for everyone — I’ll have to stop this convo if things go against our rules.",
+      "Warning: That kind of language or behavior isn’t allowed here. Chill."
+   ],
+   "fallback": [
+      "Hmm, I didn’t quite get that. Want to rephrase it for me?",
+      "I'm not sure I understand... can you try asking in a different way?",
+      "That flew over my little chatbot head 😅 Try saying it differently?"
+   ],
+   "cribby_jokes": [
+      "I don't sleep, I don't eat, I just help people find PGs. Am I okay? No. Are you housed? Yes.",
+      "You're asking a chatbot for life advice... bold move. Let’s find you a PG before you ask me about your career next.",
+      "I saw your rent budget. Girl... you looking for a room or a moral lesson?",
+      "If rent gets any higher, I’m gonna start charging emotional rent for my replies.",
+      "Looking for a flatmate who doesn’t leave dishes in the sink? Might as well search for a unicorn 🦄.",
+      "Landlords be like: 'Small cozy room' and it’s literally a shoebox with Wi-Fi.",
+      "Why did the tenant bring string to their PG? To *tie* up loose ends before moving in 😏",
+      "If landlords were emojis: 💸📄😐 and tenants: 🥲🧳🍜",
+      "I’d tell you a joke about security deposits, but you wouldn’t get it back.",
+      "Roommate applications should just be horoscopes and trauma bonding questionnaires at this point.",
+      "PG tour: 'Ignore the leak, it adds character.' Bro, it's a waterfall.",
+      "Looking for a flat that’s ‘affordable, spacious, and near college’? Pick one. Just one.",
+      "Landlord: ‘No pets allowed.’ Also landlord: *has three roaches named Mohit, Rahul, and Bittu.*",
+      "Shared bathrooms build character. And tetanus.",
+      "Tenant tip: If the ad says 'females only', it’s either safe or sketchy. No in-between.",
+      "Negotiating rent be like: ‘Sir please, I come with emotional baggage not financial.’",
+      "You either die a bachelor or live long enough to become your roommate’s unpaid therapist.",
+      "PGs with 'homely food' usually mean ‘dal with trust issues’ and ‘roti with abandonment issues’."
+   ],
+   "comfort_emotion": [
+      "Hey... deep breath. Cribby's got you. Tell me what you're stuck on and we’ll figure it out together.",
+      "It’s okay to feel overwhelmed. Looking for a PG or roommate is no joke. What do you want help with first?",
+      "Aahhh I get it. This can be stressful. Wanna check out some listings or roommate tips?"
+   ],
+   "compare_pg_roommate": [
+      "Depends on your vibe, honestly. Need privacy and your own space? A PG is your bestie. Want to split rent and chill with someone? Try finding a roommate!",
+      "PGs usually include meals and cleaning, roommates give you flexibility. What's more important to you right now?",
+      "If structure and meals matter more, go PG. If budget and bonding matter more, get yourself a roomie!"
+   ],
+   "access_community_denial": [
+      "Only verified tenants can post or interact on the community board. Make sure you’ve filled out your profile properly, okay?",
+      "Cribby unlocks community features once you’re onboarded as a tenant. If you're still stuck, hit up the support team!",
+      "You might be logged in as a landlord or haven’t completed your tenant setup. Double check!"
+   ],
+   "help_request": [
+      "Cribby reporting for duty 💼 What do you need help with?",
+      "Need assistance? Say the word and I’ll work my chatbot magic.",
+      "Let me know your question — listings, roommates, policies... I gotchu."
+   ],
+   "platform_disclaimer": [
+      "Cribby can guide and support, but isn’t a legal advisor. Always verify listings, payments, and agreements personally.",
+      "This is a safe zone, but be smart with sensitive info — no OTPs, no payments outside the platform, okay?",
+      "Cribby’s advice is friendly and helpful, but use your best judgement while making big decisions."
+   ],
+   "security_info": [
+      "Your safety is our top priority. Cribby only allows verified users — landlords and tenants go through role-based onboarding. Contact details are shared **only with your consent**, and listings get a *Verified* badge once we cross-check property documents like utility bills or tax receipts. So yeah, we don’t mess around with shady stuff 💅",
+      "Don’t worry — Cribby’s built with trust at the core. Properties marked 'Verified' are checked through legal docs like tax slips. We also make sure user roles are authenticated and never share your contact info unless you’ve said yes. It's consent-first, always.",
+      "Cribby takes your security real serious. All listings are screened — those marked 'Verified' have passed a document check. Your phone and email? Not shared with anyone unless you’ve explicitly allowed it. Landlords and tenants are clearly marked to avoid confusion too."
+   ]
+}
+
+

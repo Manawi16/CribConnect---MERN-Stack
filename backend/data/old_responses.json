@@ -1,0 +1,52 @@
+[
+  {
+    "intent": "greeting",
+    "patterns": ["hi", "hello", "hey", "yo", "what's up", "hey there"],
+    "response": "Hey there! I'm Cribby, your rental buddy. Here to help you find the perfect space or roommate. How can I assist you today?"
+  },
+  {
+    "intent": "goodbye",
+    "patterns": ["bye", "see you", "later", "goodbye", "catch you later"],
+    "response": "Take care! Let me know if you need help with listings or your profile again."
+  },
+  {
+    "intent": "thanks",
+    "patterns": ["thanks", "thank you", "thx", "tysm", "cheers"],
+    "response": "Anytime! I'm always here if you need help with listings, roommates, or anything on CribConnect."
+  },
+  {
+    "intent": "denial",
+    "patterns": ["no", "nope", "not that", "that's wrong", "this isn’t what I meant"],
+    "response": "Got it! Could you rephrase that a bit or tell me what you're trying to do? I’ll try again."
+  },
+  {
+    "intent": "confirm_help",
+    "patterns": ["yes", "yep", "that helps", "got it", "makes sense"],
+    "response": "Awesome! Let me know if there’s anything else you’d like help with."
+  },
+  {
+    "intent": "help_request",
+    "patterns": ["i need help", "how does this work", "what can you do", "i'm lost", "explain please"],
+    "response": "No worries! I can help you browse listings, find roommates, edit your profile, or post in the community. Just tell me what you’re trying to do."
+  },
+  {
+    "intent": "bot_identity",
+    "patterns": ["who are you", "what is your name", "are you a bot", "are you real"],
+    "response": "I'm Cribby! Your smart little chatbot here to guide you around CribConnect. Think of me as your digital flatmate with answers."
+  },
+  {
+    "intent": "connect_human",
+    "patterns": ["talk to someone", "talk to a human", "connect me to support", "i want real help"],
+    "response": "Sure! Please email us at contactus@cribconnect.in or use the Support form in your dashboard. Meanwhile, I can try helping too if you want!"
+  },
+  {
+    "intent": "appreciation",
+    "patterns": ["you're great", "love you", "good job", "you helped a lot"],
+    "response": "You’re the best! So glad I could help. Hope you find a great place or roommate soon."
+  },
+  {
+    "intent": "confusion",
+    "patterns": ["what", "?", "i don’t get it", "that makes no sense"],
+    "response": "Oops! That might’ve been on me. Could you tell me what exactly you’re stuck on?"
+  }
+]
